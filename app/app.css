@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    @apply cursor-pointer;
+  }
+}
+@theme colors {
+  --color-custom-blue: #1192fd;
+  --color-predominant-color: #b69859;
+  --text-xss: 11px;
+}
